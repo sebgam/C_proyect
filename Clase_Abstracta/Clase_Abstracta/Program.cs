@@ -10,17 +10,25 @@ namespace Clase_Abstracta
     {
         static void Main(string[] args)
         {
-
+            claArchivos archivo = new claArchivos();
             clsClientesConContacto cliente = new clsClientesConContacto();
+            clsDirecciones direccion = new clsDirecciones();
+            clsImpresion imprimir = new clsImpresion();
 
-            cliente.Nombre ="sebas";
-            cliente.Clave = "clave123";
-            cliente.Direccion.Colonia = "timana";         
+            Console.WriteLine("presiona 1 para crear archivo y 2 para verlo en pantalla:");
+            string comando = Console.ReadLine();
 
-            Console.WriteLine("tu nombre es: " + cliente.Nombre);
-            Console.WriteLine("y tu clave es: " + cliente.Clave + " y vives en  " + cliente.Direccion.Colonia);
-            Console.ReadKey();
-
+            if (comando == "1")
+            {
+                archivo.ImprimeCliente(cliente);
+            }
+            else
+            {
+                imprimir.ImprimeCliente(cliente);
+                imprimir.ImprimeDireccion(direccion);
+            }
+          
+            
 
 
            

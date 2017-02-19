@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Clase_Abstracta
 {
-    class clsDirecciones
+   public class clsDirecciones
     {
         public clsDirecciones()
         {

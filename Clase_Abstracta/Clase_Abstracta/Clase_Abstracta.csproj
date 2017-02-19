@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="claArchivos.cs" />
     <Compile Include="clsAbsClinetes.cs" />
     <Compile Include="clsClientesBase.cs" />
     <Compile Include="clsClientesConContacto.cs" />
     <Compile Include="clsDirecciones.cs" />
+    <Compile Include="clsImpresion.cs" />
+    <Compile Include="intSalidas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
