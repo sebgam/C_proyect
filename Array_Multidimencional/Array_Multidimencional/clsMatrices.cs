@@ -13,10 +13,32 @@ namespace Array_Multidimencional
         public clsMatrices()
         {
             matriz = new int[4, 2];
-
-
         }
 
+        public void InicializaMatriz()
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    matriz[i, j] = i+1;
+                }
+            }
+        }
+
+        public void imprimirMatriz()
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    Console.Write("{0} ", matriz[i,j]);
+                }
+                Console.WriteLine();
+            }
+
+            Console.ReadKey();
+        }
 
     }
 

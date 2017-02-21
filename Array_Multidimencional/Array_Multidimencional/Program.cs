@@ -10,6 +10,11 @@ namespace Array_Multidimencional
     {
         static void Main(string[] args)
         {
+            clsMatrices matriz = new clsMatrices();
+
+            matriz.InicializaMatriz();
+            matriz.imprimirMatriz();
+
         }
     }
 }
