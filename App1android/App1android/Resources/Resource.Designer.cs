@@ -41,11 +41,36 @@ namespace App1android
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int theme_devicedefault_background = 2131034112;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int 13355391_949433505173953_1458924130_n = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int 13391241_984770004955324_1824728133_n = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int 13398372_243168006057347_1719790131_n = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int Icon = 2130837507;
 			
 			static Drawable()
 			{
@@ -53,6 +78,34 @@ namespace App1android
 			}
 			
 			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f070002
+			public const int button1 = 2131165186;
+			
+			// aapt resource value: 0x7f070003
+			public const int button2 = 2131165187;
+			
+			// aapt resource value: 0x7f070000
+			public const int checkedTextView1 = 2131165184;
+			
+			// aapt resource value: 0x7f070001
+			public const int imageView1 = 2131165185;
+			
+			// aapt resource value: 0x7f070004
+			public const int seekBar1 = 2131165188;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
 			{
 			}
 		}
@@ -88,6 +141,22 @@ namespace App1android
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int Theme_Custom = 2131099648;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

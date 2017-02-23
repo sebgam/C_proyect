@@ -10,8 +10,21 @@ package app1android.app1android;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int theme_devicedefault_background=0x7f050000;
+    }
     public static final class drawable {
-        public static final int icon=0x7f020000;
+        public static final int 13355391_949433505173953_1458924130_n=0x7f020000;
+        public static final int 13391241_984770004955324_1824728133_n=0x7f020001;
+        public static final int 13398372_243168006057347_1719790131_n=0x7f020002;
+        public static final int icon=0x7f020003;
+    }
+    public static final class id {
+        public static final int button1=0x7f070002;
+        public static final int button2=0x7f070003;
+        public static final int checkedTextView1=0x7f070000;
+        public static final int imageView1=0x7f070001;
+        public static final int seekBar1=0x7f070004;
     }
     public static final class layout {
         public static final int main=0x7f030000;
@@ -19,5 +32,8 @@ public final class R {
     public static final class string {
         public static final int ApplicationName=0x7f040001;
         public static final int Hello=0x7f040000;
+    }
+    public static final class style {
+        public static final int Theme_Custom=0x7f060000;
     }
 }
