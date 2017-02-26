@@ -36,7 +36,12 @@ namespace login
         {
             if (user.Text == "sebas" && pass.Text == "123")
             {
-                MessageBox.Show("correcto se inicio sesion");
+
+                this.Hide();//------------------------------------------------esconde ventana actual
+
+                ventana_2 ventana2 = new ventana_2();//----------------- muestra la nueva ventana------------------
+                ventana2.Show();
+
             }else
             {
                 MessageBox.Show("error en id o pass");

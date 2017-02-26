@@ -6,3 +6,5 @@ C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\login\login\obj\De
 C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\login\login\obj\Debug\login.csproj.GenerateResource.Cache
 C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\login\login\obj\Debug\login.exe
 C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\login\login\obj\Debug\login.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\login\login\obj\Debug\login.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\login\login\obj\Debug\login.ventana_2.resources

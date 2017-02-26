@@ -1,0 +1,9 @@
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\combobox_listbox_pictureBox\combobox_listbox_pictureBox\bin\Debug\combobox_listbox_pictureBox.exe.config
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\combobox_listbox_pictureBox\combobox_listbox_pictureBox\bin\Debug\combobox_listbox_pictureBox.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\combobox_listbox_pictureBox\combobox_listbox_pictureBox\bin\Debug\combobox_listbox_pictureBox.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\combobox_listbox_pictureBox\combobox_listbox_pictureBox\obj\Debug\combobox_listbox_pictureBox.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\combobox_listbox_pictureBox\combobox_listbox_pictureBox\obj\Debug\combobox_listbox_pictureBox.Form1.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\combobox_listbox_pictureBox\combobox_listbox_pictureBox\obj\Debug\combobox_listbox_pictureBox.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\combobox_listbox_pictureBox\combobox_listbox_pictureBox\obj\Debug\combobox_listbox_pictureBox.csproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\combobox_listbox_pictureBox\combobox_listbox_pictureBox\obj\Debug\combobox_listbox_pictureBox.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\combobox_listbox_pictureBox\combobox_listbox_pictureBox\obj\Debug\combobox_listbox_pictureBox.pdb
