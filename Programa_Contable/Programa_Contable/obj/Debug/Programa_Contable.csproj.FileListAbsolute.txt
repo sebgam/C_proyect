@@ -1,0 +1,9 @@
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\bin\Debug\Programa_Contable.exe.config
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\bin\Debug\Programa_Contable.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\bin\Debug\Programa_Contable.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\obj\Debug\Programa_Contable.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\obj\Debug\Programa_Contable.Form1.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\obj\Debug\Programa_Contable.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\obj\Debug\Programa_Contable.csproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\obj\Debug\Programa_Contable.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\obj\Debug\Programa_Contable.pdb
