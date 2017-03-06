@@ -33,7 +33,7 @@
             // 
             // iniciar
             // 
-            this.iniciar.Location = new System.Drawing.Point(128, 65);
+            this.iniciar.Location = new System.Drawing.Point(97, 184);
             this.iniciar.Name = "iniciar";
             this.iniciar.Size = new System.Drawing.Size(75, 23);
             this.iniciar.TabIndex = 0;

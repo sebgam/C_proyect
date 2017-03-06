@@ -24,8 +24,7 @@ namespace Programa_Contable
             //--------------conexion a base de datos-------------------------------
             try
             {
-                SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=Administracion;Integrated Security=True");
-                con.Open();
+               
                 MessageBox.Show("se ah conectado correctamente a la base de datos");
             }
             catch (Exception error)
