@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using mi_libreria;
 
 namespace Programa_Contable
 {
@@ -20,20 +21,34 @@ namespace Programa_Contable
 
         private void iniciar_Click(object sender, EventArgs e)
         {
-
-            //--------------conexion a base de datos-------------------------------
             try
             {
+                string CMD = string.Format("SELECT * FROM Usuarios WHERE account = '{0}' AND password ='{1}'", txtPass.Text.Trim(), txtNomAcc.Text.Trim());
+
+                DataSet ds = Utilidades.ejecutar(CMD);
+
+                string cuenta = ds.Tables[0].Rows[0]["account"].ToString().Trim();
+                string contra = ds.Tables[0].Rows[0]["password"].ToString().Trim();
+
+                if(cuenta == txtPass.Text.Trim() && contra == txtNomAcc.Text.Trim())
+                {
+                    MessageBox.Show("se ha iniciado");
+                }
                
-                MessageBox.Show("se ah conectado correctamente a la base de datos");
+
             }
-            catch (Exception error)
+            catch (Exception)
             {
 
-                MessageBox.Show("a ocurrido un error" + error.Message);
+                MessageBox.Show("usuario o contraseña incorrectos");
             }
             
 
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -7,3 +7,7 @@ C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\
 C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\obj\Debug\Programa_Contable.csproj.GenerateResource.Cache
 C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\obj\Debug\Programa_Contable.exe
 C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\obj\Debug\Programa_Contable.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\bin\Debug\MetroSuite.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\bin\Debug\mi_libreria.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\C_proyect\Programa_Contable\Programa_Contable\bin\Debug\mi_libreria.pdb
