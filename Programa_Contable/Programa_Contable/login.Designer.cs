@@ -1,6 +1,6 @@
 ﻿namespace Programa_Contable
 {
-    partial class Form1
+    partial class login
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
             this.btnIniciar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPass = new ns1.BunifuMaterialTextbox();
-            this.txtNomAcc = new ns1.BunifuMaterialTextbox();
+            this.txtNom = new ns1.BunifuMaterialTextbox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -62,7 +62,7 @@
             this.btnIniciar.ForeColor = System.Drawing.Color.White;
             this.btnIniciar.Image = ((System.Drawing.Image)(resources.GetObject("btnIniciar.Image")));
             this.btnIniciar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIniciar.Location = new System.Drawing.Point(54, 248);
+            this.btnIniciar.Location = new System.Drawing.Point(54, 272);
             this.btnIniciar.Name = "btnIniciar";
             this.btnIniciar.Size = new System.Drawing.Size(160, 35);
             this.btnIniciar.TabIndex = 3;
@@ -80,7 +80,7 @@
             this.btnSalir.ForeColor = System.Drawing.Color.White;
             this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalir.Location = new System.Drawing.Point(242, 248);
+            this.btnSalir.Location = new System.Drawing.Point(299, 272);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(160, 35);
             this.btnSalir.TabIndex = 4;
@@ -124,27 +124,27 @@
             this.txtPass.Margin = new System.Windows.Forms.Padding(4);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(205, 44);
-            this.txtPass.TabIndex = 1;
+            this.txtPass.TabIndex = 2;
             this.txtPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // txtNomAcc
+            // txtNom
             // 
-            this.txtNomAcc.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtNomAcc.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.txtNomAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtNomAcc.HintForeColor = System.Drawing.Color.Empty;
-            this.txtNomAcc.HintText = "";
-            this.txtNomAcc.isPassword = false;
-            this.txtNomAcc.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
-            this.txtNomAcc.LineIdleColor = System.Drawing.Color.Gray;
-            this.txtNomAcc.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
-            this.txtNomAcc.LineThickness = 3;
-            this.txtNomAcc.Location = new System.Drawing.Point(54, 87);
-            this.txtNomAcc.Margin = new System.Windows.Forms.Padding(4);
-            this.txtNomAcc.Name = "txtNomAcc";
-            this.txtNomAcc.Size = new System.Drawing.Size(205, 44);
-            this.txtNomAcc.TabIndex = 2;
-            this.txtNomAcc.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtNom.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNom.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtNom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtNom.HintForeColor = System.Drawing.Color.Empty;
+            this.txtNom.HintText = "";
+            this.txtNom.isPassword = false;
+            this.txtNom.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
+            this.txtNom.LineIdleColor = System.Drawing.Color.Gray;
+            this.txtNom.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
+            this.txtNom.LineThickness = 3;
+            this.txtNom.Location = new System.Drawing.Point(54, 87);
+            this.txtNom.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNom.Name = "txtNom";
+            this.txtNom.Size = new System.Drawing.Size(205, 44);
+            this.txtNom.TabIndex = 1;
+            this.txtNom.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // pictureBox1
             // 
@@ -169,7 +169,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(392, 306);
+            this.pictureBox5.Location = new System.Drawing.Point(395, 359);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(10, 11);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -179,7 +179,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(404, 310);
+            this.label5.Location = new System.Drawing.Point(407, 363);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(97, 13);
             this.label5.TabIndex = 17;
@@ -189,7 +189,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(344, 310);
+            this.label4.Location = new System.Drawing.Point(347, 363);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 13);
             this.label4.TabIndex = 16;
@@ -199,7 +199,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(144, 309);
+            this.label6.Location = new System.Drawing.Point(147, 362);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(162, 13);
             this.label6.TabIndex = 22;
@@ -208,7 +208,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(38, 310);
+            this.label7.Location = new System.Drawing.Point(41, 363);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(67, 13);
             this.label7.TabIndex = 21;
@@ -217,7 +217,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(110, 302);
+            this.pictureBox4.Location = new System.Drawing.Point(113, 355);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(31, 28);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -227,20 +227,20 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(4, 302);
+            this.pictureBox3.Location = new System.Drawing.Point(7, 355);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(31, 28);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 19;
             this.pictureBox3.TabStop = false;
             // 
-            // Form1
+            // login
             // 
             this.AcceptButton = this.btnIniciar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(507, 332);
+            this.ClientSize = new System.Drawing.Size(507, 384);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox4);
@@ -250,14 +250,17 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.txtNomAcc);
+            this.Controls.Add(this.txtNom);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnIniciar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(523, 423);
+            this.Name = "login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Contabilidad G";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -275,7 +278,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private ns1.BunifuMaterialTextbox txtPass;
-        private ns1.BunifuMaterialTextbox txtNomAcc;
+        private ns1.BunifuMaterialTextbox txtNom;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox5;
