@@ -11,7 +11,7 @@ using mi_libreria;
 
 namespace Programa_Contable
 {
-    public partial class ventanaAdmin : Form
+    public partial class ventanaAdmin : FormBase
 
     {
       
@@ -48,9 +48,6 @@ namespace Programa_Contable
             Application.Exit();
         }
 
-        private void btnSalir_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+       
     }
 }

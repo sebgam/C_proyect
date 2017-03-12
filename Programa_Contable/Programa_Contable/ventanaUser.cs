@@ -12,7 +12,7 @@ using mi_libreria;
 
 namespace Programa_Contable
 {
-    public partial class ventanaUser : Form
+    public partial class ventanaUser : FormBase
     {
         public ventanaUser()
         {
