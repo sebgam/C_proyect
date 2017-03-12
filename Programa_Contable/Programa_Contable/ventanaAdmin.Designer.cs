@@ -43,6 +43,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(295, 363);
+            this.btnSalir.Size = new System.Drawing.Size(163, 35);
+            // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
@@ -206,6 +211,18 @@
             this.Text = "ventanaAdmin";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ventanaAdmin_FormClosed);
             this.Load += new System.EventHandler(this.ventanaAdmin_Load);
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.lblAdmin, 0);
+            this.Controls.SetChildIndex(this.lblUsuario, 0);
+            this.Controls.SetChildIndex(this.lblCodigo, 0);
+            this.Controls.SetChildIndex(this.button1, 0);
+            this.Controls.SetChildIndex(this.pictureBox1, 0);
+            this.Controls.SetChildIndex(this.label7, 0);
+            this.Controls.SetChildIndex(this.label8, 0);
+            this.Controls.SetChildIndex(this.button2, 0);
+            this.Controls.SetChildIndex(this.button3, 0);
+            this.Controls.SetChildIndex(this.button4, 0);
+            this.Controls.SetChildIndex(this.btnSalir, 0);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

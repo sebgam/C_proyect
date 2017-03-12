@@ -12,7 +12,7 @@ using mi_libreria;//-------------------inserta libreria previamente creada------
 
 namespace Programa_Contable
 {
-    public partial class login : Form
+    public partial class login : FormBase
     {
         public login()
         {

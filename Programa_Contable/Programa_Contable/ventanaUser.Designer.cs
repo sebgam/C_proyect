@@ -42,6 +42,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(301, 388);
+            this.btnSalir.Size = new System.Drawing.Size(147, 34);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -186,6 +191,17 @@
             this.Text = "ventanaUser";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ventanaUser_FormClosed);
             this.Load += new System.EventHandler(this.ventanaUser_Load);
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.lblNombre, 0);
+            this.Controls.SetChildIndex(this.lblUsuario, 0);
+            this.Controls.SetChildIndex(this.lblCodigo, 0);
+            this.Controls.SetChildIndex(this.button1, 0);
+            this.Controls.SetChildIndex(this.pictureBox1, 0);
+            this.Controls.SetChildIndex(this.label7, 0);
+            this.Controls.SetChildIndex(this.label8, 0);
+            this.Controls.SetChildIndex(this.button3, 0);
+            this.Controls.SetChildIndex(this.button4, 0);
+            this.Controls.SetChildIndex(this.btnSalir, 0);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

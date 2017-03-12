@@ -17,9 +17,12 @@ namespace Programa_Contable
             InitializeComponent();
         }
 
-        private void FormBase_Load(object sender, EventArgs e)
+        private void btnSalir_Click(object sender, EventArgs e)
         {
-
+            if(MessageBox.Show("desea salir?", "aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }
