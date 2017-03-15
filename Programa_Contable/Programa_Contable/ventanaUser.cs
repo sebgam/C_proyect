@@ -55,5 +55,12 @@ namespace Programa_Contable
             pictureBox1.Image = Image.FromFile(url);//------carga imagen desde base de datos----------
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            contenedorPrincipal conPrincipal = new contenedorPrincipal();
+            this.Hide();
+            conPrincipal.Show();
+        }
     }
 }

@@ -21,5 +21,30 @@ namespace Programa_Contable
         {
 
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            consultar();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            guardar();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            eliminar();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            nuevo();
+        }
     }
 }

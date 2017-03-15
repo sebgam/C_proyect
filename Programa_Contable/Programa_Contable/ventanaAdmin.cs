@@ -45,9 +45,15 @@ namespace Programa_Contable
 
         private void ventanaAdmin_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            Application.Exit();//-------------al cerrar el formulario cerrar la compilacion del programa----------
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            contenedorPrincipal conPrincipal = new contenedorPrincipal();
+            this.Hide();
+            conPrincipal.Show();
+
+        }
     }
 }

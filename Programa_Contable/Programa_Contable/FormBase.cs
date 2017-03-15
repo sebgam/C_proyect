@@ -24,5 +24,22 @@ namespace Programa_Contable
                 this.Close();
             }
         }
+
+        public virtual void eliminar()
+        {
+
+        }
+        public virtual void nuevo()
+        {
+
+        }
+        public virtual void consultar()
+        {
+
+        }
+        public virtual void guardar()
+        {
+
+        }
     }
 }

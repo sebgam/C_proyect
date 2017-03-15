@@ -45,6 +45,8 @@
             // 
             // btnSalir
             // 
+            this.btnSalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.btnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(57)))), ((int)(((byte)(43)))));
             this.btnSalir.Location = new System.Drawing.Point(295, 363);
             this.btnSalir.Size = new System.Drawing.Size(163, 35);
             // 
@@ -147,6 +149,7 @@
             this.button1.Text = "Contenedor principal";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lblCodigo
             // 

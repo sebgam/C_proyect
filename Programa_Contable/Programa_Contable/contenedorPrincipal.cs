@@ -103,5 +103,29 @@ namespace Programa_Contable
                 childForm.Close();
             }
         }
+
+        private void contenedorPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void contenedorPrincipal_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            mantenimientoCliente manCliente = new mantenimientoCliente();
+            manCliente.MdiParent = this;
+            manCliente.Show();
+        }
+
+        private void productosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            mantenimientoProducto manProducto = new mantenimientoProducto();
+            manProducto.MdiParent = this;
+            manProducto.Show();
+        }
     }
 }
