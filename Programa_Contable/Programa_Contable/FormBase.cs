@@ -37,9 +37,9 @@ namespace Programa_Contable
         {
 
         }
-        public virtual void guardar()
+        public virtual Boolean guardar()
         {
-
+            return false;
         }
     }
 }
