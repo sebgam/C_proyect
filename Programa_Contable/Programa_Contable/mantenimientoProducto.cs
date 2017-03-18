@@ -23,7 +23,7 @@ namespace Programa_Contable
         {
             try
             {
-                if (txtIdPro.Text == "" || txtDesPro.Text == "" || txtPrePro.Text == "")
+                if (txtIdPro.Text == "" || txtDesPro.Text == "" || txtPrePro.Text == "")//------valida que no haya campos vacios---------
                 {
                     MessageBox.Show("por favor inserte todos los campos");
                     return false;
@@ -58,6 +58,28 @@ namespace Programa_Contable
                 return false;
                 
             }
+        }
+
+
+        public override void eliminar()
+        {
+            try
+            { 
+
+                string cmd = string.Format("EXEC eliminarArticulos'{0}'", txtIdPro.Text.Trim());
+                Utilidades.ejecutar(cmd);
+                MessageBox.Show("se ah eliminado");
+
+            }
+            catch (Exception error)
+            {
+
+                MessageBox.Show("error " + error.Message);
+            }
+
+
+
+
         }
 
 

@@ -58,6 +58,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdministracionDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdministracionDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="consultas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,6 +164,17 @@
     <EmbeddedResource Include="ventanaUser.resx">
       <DependentUpon>ventanaUser.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="AdministracionDataSet.xsc">
+      <DependentUpon>AdministracionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AdministracionDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AdministracionDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AdministracionDataSet.xss">
+      <DependentUpon>AdministracionDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
