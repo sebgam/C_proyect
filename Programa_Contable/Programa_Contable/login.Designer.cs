@@ -248,7 +248,6 @@
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(523, 423);
             this.Name = "login";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Contabilidad G";
             this.Controls.SetChildIndex(this.btnIniciar, 0);
             this.Controls.SetChildIndex(this.label1, 0);

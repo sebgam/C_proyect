@@ -53,7 +53,7 @@
             // 
             this.btnSalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
             this.btnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(57)))), ((int)(((byte)(43)))));
-            this.btnSalir.Location = new System.Drawing.Point(463, 299);
+            this.btnSalir.Location = new System.Drawing.Point(463, 291);
             // 
             // label3
             // 
